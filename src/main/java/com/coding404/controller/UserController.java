@@ -105,6 +105,9 @@ public class UserController extends HttpServlet {
 			
 			request.getRequestDispatcher("user_mypage.jsp").forward(request, response);
 			
+		} else if(command.equals("/user/user_logout.user")) {
+			
+			request.getRequestDispatcher("user_login.jsp").forward(request, response);
 		}
 		
 	

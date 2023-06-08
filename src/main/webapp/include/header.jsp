@@ -83,7 +83,7 @@
 	                        	<a href="<%=request.getContextPath()%>/user/user_mypage.user">나의정보관리</a>
 	                    	</li>
 	                    	<li>
-	                        	<a href="<%=request.getContextPath()%>/user/user_jogout.user" style="color:red">로그아웃</a>
+	                        	<a href="<%=request.getContextPath()%>/user/user_logout.user" style="color:red">로그아웃</a>
 	                    	</li>
 	               		</c:when>
 	               		
