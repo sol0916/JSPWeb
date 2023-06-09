@@ -73,7 +73,7 @@
                         <a href="<%=request.getContextPath() %>/member/member.user">Member</a>
                     </li>
                     <li>
-                        <a href="">BOARD</a>
+                        <a href="<%=request.getContextPath()%>/board/board_list.board">BOARD</a>
                     </li>
                     
                     <c:choose>
